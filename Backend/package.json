@@ -4,14 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "dev": "node server.js",
     "server": "nodemon server.js"
   },
-  "type":"module",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
     "express": "^4.19.2"
   },
   "devDependencies": {
