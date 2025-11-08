@@ -86,4 +86,78 @@ const singleProduct = async (req, res) => {
     }
 }
 
-export { listProducts, addProduct, removeProduct, singleProduct }
+const singleProductGet = async (req, res) => {
+  try {
+    const { id } = req.params
+    const product = await productModel.findById(id)
+    if (!product) return res.json({ success: false, message: 'Not found' })
+    res.json({ success: true, product })
+  } catch (error) {
+    console.log(error)
+    res.json({ success: false, message: error.message })
+  }
+}
+
+// POST /api/product/update (multipart/form-data)
+const updateProduct = async (req, res) => {
+  try {
+    const {
+      id,
+      name,
+      description,
+      price,
+      category,
+      subCategory,
+      sizes,
+      bestseller,
+    } = req.body
+
+    const prod = await productModel.findById(id)
+    if (!prod) return res.json({ success: false, message: 'Product not found' })
+
+    // Start with existing image URLs
+    const urls = Array.isArray(prod.image) ? [...prod.image] : []
+
+    // Helper to upload/replace at position
+    const maybeUpload = async (field, index) => {
+      const f = req.files?.[field]?.[0]
+      if (!f) return
+      const up = await cloudinary.uploader.upload(f.path, { resource_type: 'image' })
+      urls[index] = up.secure_url   // replace that slot
+    }
+
+    await maybeUpload('image1', 0)
+    await maybeUpload('image2', 1)
+    await maybeUpload('image3', 2)
+    await maybeUpload('image4', 3)
+
+    // Parse types safely
+    const parsedSizes = Array.isArray(sizes) ? sizes : JSON.parse(sizes || '[]')
+    const parsedBest = (bestseller === 'true' || bestseller === true)
+
+    // Apply field updates
+    prod.name = name
+    prod.description = description
+    prod.category = category
+    prod.subCategory = subCategory
+    prod.price = Number(price)
+    prod.sizes = parsedSizes
+    prod.bestseller = parsedBest
+    prod.image = urls
+
+    await prod.save()
+    res.json({ success: true, message: 'Product Updated' })
+  } catch (error) {
+    console.log(error)
+    res.json({ success: false, message: error.message })
+  }
+}
+
+export {
+  listProducts,
+  addProduct,
+  removeProduct,
+  singleProduct,
+  singleProductGet,
+  updateProduct,
+}
