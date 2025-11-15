@@ -1,0 +1,270 @@
+{
+    "title": "BA1",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1130,
+            "height": 792,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:5174/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:5174/",
+                    "title": "UniStyle Admin Panel"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div/form/div[1]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/your@email.com"
+                ]
+            ],
+            "offsetY": 24.648040771484375,
+            "offsetX": 107.64584350585938
+        },
+        {
+            "type": "change",
+            "value": "admin@unistyle.com",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div/form/div[1]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/your@email.com"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div/form/div[2]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Enter your password"
+                ]
+            ],
+            "offsetY": 16.94573974609375,
+            "offsetX": 138.64584350585938
+        },
+        {
+            "type": "change",
+            "value": "unistyle123",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div/form/div[2]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Enter your password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div/form/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/Login"
+                ],
+                [
+                    "text/Login"
+                ]
+            ],
+            "offsetY": 15.240692138671875,
+            "offsetX": 168.64584350585938
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(1) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div/a[1]/p"
+                ],
+                [
+                    "pierce/a:nth-of-type(1) > p"
+                ],
+                [
+                    "aria/Add Items",
+                    "aria/[role=\"paragraph\"]"
+                ],
+                [
+                    "text/Add Items"
+                ]
+            ],
+            "offsetY": 13.620613098144531,
+            "offsetX": 36.323463439941406
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div/a[2]/p"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > p"
+                ],
+                [
+                    "aria/List Items",
+                    "aria/[role=\"paragraph\"]"
+                ],
+                [
+                    "text/List Items"
+                ]
+            ],
+            "offsetY": 8.398025512695312,
+            "offsetX": 36.323463439941406
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.w-\\[18\\%\\]"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]"
+                ],
+                [
+                    "pierce/div.w-\\[18\\%\\]"
+                ]
+            ],
+            "offsetY": 177.4879379272461,
+            "offsetX": 118
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(3) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div/a[3]/p"
+                ],
+                [
+                    "pierce/a:nth-of-type(3) > p"
+                ],
+                [
+                    "aria/Orders",
+                    "aria/[role=\"paragraph\"]"
+                ],
+                [
+                    "text/Orders"
+                ]
+            ],
+            "offsetY": 14.175445556640625,
+            "offsetX": 33.323463439941406
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > select"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div/div/div[1]/select"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > select"
+                ]
+            ],
+            "offsetY": 34.75877380371094,
+            "offsetX": 61.3739013671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > select"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div/div/div[1]/select"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > select"
+                ]
+            ],
+            "offsetY": 34.75877380371094,
+            "offsetX": 61.3739013671875
+        }
+    ]
+}
