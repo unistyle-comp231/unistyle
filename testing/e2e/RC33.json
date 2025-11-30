@@ -1,0 +1,303 @@
+{
+    "title": "RC3",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1130,
+            "height": 792,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:5173/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:5173/",
+                    "title": "UniStyle"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex > div.flex > div > img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div[1]/div/img"
+                ],
+                [
+                    "pierce/div.flex > div.flex > div > img"
+                ]
+            ],
+            "offsetY": 6.745613098144531,
+            "offsetX": 7.046630859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#root > div > div.flex > div.flex > div p:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div[1]/div/div/div/p[1]"
+                ],
+                [
+                    "pierce/#root > div > div.flex > div.flex > div p:nth-of-type(1)"
+                ],
+                [
+                    "text/My Profile"
+                ]
+            ],
+            "offsetY": 13.128288269042969,
+            "offsetX": 59.048828125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/ul/a[2]/p"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > p"
+                ]
+            ],
+            "offsetY": 12.922698974609375,
+            "offsetX": 39.701751708984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(3) img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[2]/a[3]/div/img"
+                ],
+                [
+                    "pierce/a:nth-of-type(3) img"
+                ],
+                [
+                    "aria/Women’s Monochrome Print Wide-Leg Pants $46",
+                    "aria/[role=\"image\"]"
+                ]
+            ],
+            "offsetY": 147.6270751953125,
+            "offsetX": 83.15362548828125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[2]/div[2]/div/button[2]"
+                ],
+                [
+                    "pierce/button:nth-of-type(2)"
+                ],
+                [
+                    "aria/M"
+                ]
+            ],
+            "offsetY": 14.209991455078125,
+            "offsetX": 22.03289794921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > button"
+                ],
+                [
+                    "aria/ADD TO CART"
+                ],
+                [
+                    "text/ADD TO CART"
+                ]
+            ],
+            "offsetY": 20.49835205078125,
+            "offsetX": 103.649658203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/ul/a[2]/p"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > p"
+                ]
+            ],
+            "offsetY": 16.922698974609375,
+            "offsetX": 61.701751708984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(9) img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[2]/a[9]/div/img"
+                ],
+                [
+                    "pierce/a:nth-of-type(9) img"
+                ],
+                [
+                    "aria/Men Round Neck Pure Cotton T-shirt $45",
+                    "aria/[role=\"image\"]"
+                ]
+            ],
+            "offsetY": 85.18612670898438,
+            "offsetX": 112.74563598632812
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.gap-4 button:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[2]/div[2]/div/button[1]"
+                ],
+                [
+                    "pierce/div.gap-4 button:nth-of-type(1)"
+                ],
+                [
+                    "aria/S"
+                ]
+            ],
+            "offsetY": 16.199554443359375,
+            "offsetX": 10.649658203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[2]/div[2]/div/button[3]"
+                ],
+                [
+                    "pierce/button:nth-of-type(3)"
+                ],
+                [
+                    "aria/L"
+                ]
+            ],
+            "offsetY": 21.199554443359375,
+            "offsetX": 13.86566162109375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > button"
+                ],
+                [
+                    "aria/ADD TO CART"
+                ],
+                [
+                    "text/ADD TO CART"
+                ]
+            ],
+            "offsetY": 19.487945556640625,
+            "offsetX": 110.649658203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex > div.flex > a > img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div[1]/a/img"
+                ],
+                [
+                    "pierce/div.flex > div.flex > a > img"
+                ],
+                [
+                    "aria/3",
+                    "aria/[role=\"image\"]"
+                ]
+            ],
+            "offsetY": 17.758773803710938,
+            "offsetX": 5.0499267578125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex > div.flex > div > img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div[1]/div/img"
+                ],
+                [
+                    "pierce/div.flex > div.flex > div > img"
+                ]
+            ],
+            "offsetY": 15.745613098144531,
+            "offsetX": 9.046630859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex > div.flex > div p:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/div[1]/div/div/div/p[1]"
+                ],
+                [
+                    "pierce/div.flex > div.flex > div p:nth-of-type(1)"
+                ],
+                [
+                    "text/My Profile"
+                ]
+            ],
+            "offsetY": 19.12828826904297,
+            "offsetX": 57.048828125
+        }
+    ]
+}

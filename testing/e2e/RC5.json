@@ -1,0 +1,1025 @@
+{
+    "title": "RC5",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1130,
+            "height": 792,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:5173/cart",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:5173/cart",
+                    "title": "UniStyle"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[3]/div/div[2]/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/PROCEED TO CHECKOUT"
+                ],
+                [
+                    "text/PROCEED TO CHECKOUT"
+                ]
+            ],
+            "offsetY": 7.26043701171875,
+            "offsetX": 86.24615478515625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[2]/input[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input:nth-of-type(1)"
+                ],
+                [
+                    "aria/First name"
+                ]
+            ],
+            "offsetY": 20.00384521484375,
+            "offsetX": 157.24561309814453
+        },
+        {
+            "type": "change",
+            "value": "U",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[2]/input[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input:nth-of-type(1)"
+                ],
+                [
+                    "aria/First name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "User",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[2]/input[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input:nth-of-type(1)"
+                ],
+                [
+                    "aria/First name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "1",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[2]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Last name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ]
+            ],
+            "offsetY": 14.28948974609375,
+            "offsetX": 154.24561309814453
+        },
+        {
+            "type": "change",
+            "value": "77 mabelle",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "form > div.flex > input[type='text']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[2]"
+                ],
+                [
+                    "pierce/form > div.flex > input[type='text']"
+                ],
+                [
+                    "aria/Street"
+                ]
+            ],
+            "offsetY": 21.575103759765625,
+            "offsetX": 80.24561309814453
+        },
+        {
+            "type": "change",
+            "value": "A",
+            "selectors": [
+                [
+                    "form > div.flex > input[type='text']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[2]"
+                ],
+                [
+                    "pierce/form > div.flex > input[type='text']"
+                ],
+                [
+                    "aria/Street"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "a",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Apt14",
+            "selectors": [
+                [
+                    "form > div.flex > input[type='text']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[2]"
+                ],
+                [
+                    "pierce/form > div.flex > input[type='text']"
+                ],
+                [
+                    "aria/Street"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > input:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[3]/input[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > input:nth-of-type(1)"
+                ],
+                [
+                    "aria/City"
+                ]
+            ],
+            "offsetY": 23.860748291015625,
+            "offsetX": 79.24561309814453
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Toronto",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > input:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[3]/input[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > input:nth-of-type(1)"
+                ],
+                [
+                    "aria/City"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "O",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[3]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Province"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "o",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "On",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[3]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Province"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Ontario",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[3]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Province"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "M",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > input:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[4]/input[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > input:nth-of-type(1)"
+                ],
+                [
+                    "aria/Zipcode"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "M9a016",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > input:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[4]/input[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > input:nth-of-type(1)"
+                ],
+                [
+                    "aria/Zipcode"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[4]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Country"
+                ]
+            ],
+            "offsetY": 23.146392822265625,
+            "offsetX": 84.26150512695312
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "X",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[4]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Country"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "C",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[4]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Country"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "c",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Canada",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/div[4]/input[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > input:nth-of-type(2)"
+                ],
+                [
+                    "aria/Country"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "input[type='number']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[3]"
+                ],
+                [
+                    "pierce/input[type='number']"
+                ],
+                [
+                    "aria/Phone"
+                ]
+            ],
+            "offsetY": 24.432037353515625,
+            "offsetX": 186.24561309814453
+        },
+        {
+            "type": "change",
+            "value": "4376050405",
+            "selectors": [
+                [
+                    "input[type='number']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[3]"
+                ],
+                [
+                    "pierce/input[type='number']"
+                ],
+                [
+                    "aria/Phone"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-8 div.flex p.text-gray-500"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[2]/div[3]/p[2]"
+                ],
+                [
+                    "pierce/div.mt-8 div.flex p.text-gray-500"
+                ],
+                [
+                    "text/CASH ON DELIVERY"
+                ]
+            ],
+            "offsetY": 26.459442138671875,
+            "offsetX": 18.372802734375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-12 > div.flex > div:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[2]/div[3]"
+                ],
+                [
+                    "pierce/div.mt-12 > div.flex > div:nth-of-type(3)"
+                ]
+            ],
+            "offsetY": 28.327301025390625,
+            "offsetX": 36.22479248046875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > p.min-w-3\\.5"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[2]/div[3]/p[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > p.min-w-3\\.5"
+                ]
+            ],
+            "offsetY": 6.46600341796875,
+            "offsetX": 10.354736328125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-12 > div.flex > div:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[2]/div[3]"
+                ],
+                [
+                    "pierce/div.mt-12 > div.flex > div:nth-of-type(3)"
+                ]
+            ],
+            "offsetY": 11.327301025390625,
+            "offsetX": 24.22479248046875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-12 div:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[2]/div[2]/p"
+                ],
+                [
+                    "pierce/div.mt-12 div:nth-of-type(2) > p"
+                ]
+            ],
+            "offsetY": 2.46600341796875,
+            "offsetX": 7.16448974609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-12 > div.flex > div:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[2]/div[3]"
+                ],
+                [
+                    "pierce/div.mt-12 > div.flex > div:nth-of-type(3)"
+                ]
+            ],
+            "offsetY": 21.327301025390625,
+            "offsetX": 24.22479248046875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[3]/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/PLACE ORDER"
+                ],
+                [
+                    "text/PLACE ORDER"
+                ]
+            ],
+            "offsetY": 16.60693359375,
+            "offsetX": 113.7900390625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ],
+                [
+                    "text/77 mabelle"
+                ]
+            ],
+            "offsetY": 18.28948974609375,
+            "offsetX": 33.24561309814453
+        },
+        {
+            "type": "change",
+            "value": "77mabelle",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ],
+                [
+                    "text/77 mabelle"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ],
+                [
+                    "text/77 mabelle"
+                ]
+            ],
+            "offsetY": 24.28948974609375,
+            "offsetX": 116.24561309814453
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ],
+                [
+                    "text/77 mabelle"
+                ]
+            ],
+            "offsetY": 24.28948974609375,
+            "offsetX": 116.24561309814453
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "U",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ],
+                [
+                    "text/77 mabelle"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "u",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "User1@",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ],
+                [
+                    "text/77 mabelle"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "q",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "User1@mail.com",
+            "selectors": [
+                [
+                    "input[type='email']"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[1]/input[1]"
+                ],
+                [
+                    "pierce/input[type='email']"
+                ],
+                [
+                    "aria/Email address"
+                ],
+                [
+                    "text/77 mabelle"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/div[2]/div[2]/div[3]/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/PLACE ORDER"
+                ],
+                [
+                    "text/PLACE ORDER"
+                ]
+            ],
+            "offsetY": 13.60693359375,
+            "offsetX": 94.7900390625,
+            "duration": 485.3999999994412
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > div:nth-of-type(1) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[1]/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > div:nth-of-type(1) button"
+                ]
+            ],
+            "offsetY": 23.99505615234375,
+            "offsetX": 90.6058349609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > div:nth-of-type(1) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[1]/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > div:nth-of-type(1) button"
+                ]
+            ],
+            "offsetY": 14.99505615234375,
+            "offsetX": 51.6058349609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > div:nth-of-type(2) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[2]/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > div:nth-of-type(2) button"
+                ]
+            ],
+            "offsetY": 15.1337890625,
+            "offsetX": 51.6058349609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > div:nth-of-type(1) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[1]/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > div:nth-of-type(1) button"
+                ]
+            ],
+            "offsetY": 17.99505615234375,
+            "offsetX": 58.6058349609375
+        }
+    ]
+}
