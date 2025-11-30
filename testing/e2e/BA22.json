@@ -1,0 +1,538 @@
+{
+    "title": "BA22",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1115,
+            "height": 791,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:5174/add",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:5174/add",
+                    "title": "UniStyle Admin Panel"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div/a[2]/p"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > p"
+                ],
+                [
+                    "aria/List Items",
+                    "aria/[role=\"paragraph\"]"
+                ],
+                [
+                    "text/List Items"
+                ]
+            ],
+            "offsetY": 13.047149658203125,
+            "offsetX": 55.323463439941406
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(1) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div/a[1]/p"
+                ],
+                [
+                    "pierce/a:nth-of-type(1) > p"
+                ],
+                [
+                    "aria/Add Items",
+                    "aria/[role=\"paragraph\"]"
+                ],
+                [
+                    "text/Add Items"
+                ]
+            ],
+            "offsetY": 14.269737243652344,
+            "offsetX": 26.323463439941406
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label:nth-of-type(1) > img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[1]/div/label[1]/img"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > img"
+                ]
+            ],
+            "offsetY": 50.15679931640625,
+            "offsetX": 60.639801025390625
+        },
+        {
+            "type": "change",
+            "value": "C:\\fakepath\\TSHIRT.png",
+            "selectors": [
+                [
+                    "#image1"
+                ],
+                [
+                    "xpath///*[@id=\"image1\"]"
+                ],
+                [
+                    "pierce/#image1"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[2]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Type here"
+                ]
+            ],
+            "offsetY": 32.046600341796875,
+            "offsetX": 44.639801025390625
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "N",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[2]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Type here"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "New ",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[2]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Type here"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "New T",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[2]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Type here"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "t",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "New T-shirt",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[2]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Type here"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "B",
+            "selectors": [
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[3]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ],
+                [
+                    "aria/Write content here"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Black one.",
+            "selectors": [
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[3]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ],
+                [
+                    "aria/Write content here"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex-col input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[4]/div[3]/input"
+                ],
+                [
+                    "pierce/div.flex-col input"
+                ],
+                [
+                    "aria/25"
+                ]
+            ],
+            "offsetY": 21.1551513671875,
+            "offsetX": 21.573486328125
+        },
+        {
+            "type": "change",
+            "value": "1",
+            "selectors": [
+                [
+                    "div.flex-col input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[4]/div[3]/input"
+                ],
+                [
+                    "pierce/div.flex-col input"
+                ],
+                [
+                    "aria/25"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "2",
+            "selectors": [
+                [
+                    "div.flex-col input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[4]/div[3]/input"
+                ],
+                [
+                    "pierce/div.flex-col input"
+                ],
+                [
+                    "aria/25"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex-col input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[4]/div[3]/input"
+                ],
+                [
+                    "pierce/div.flex-col input"
+                ],
+                [
+                    "aria/25"
+                ]
+            ],
+            "offsetY": 19.1551513671875,
+            "offsetX": 100.573486328125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) > div"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[5]/div"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) > div"
+                ],
+                [
+                    "text/SMLXLXXL"
+                ]
+            ],
+            "offsetY": 9.43695068359375,
+            "offsetX": 38.639801025390625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) div:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[5]/div/div[2]/p"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) div:nth-of-type(2) > p"
+                ]
+            ],
+            "offsetY": 11.43695068359375,
+            "offsetX": 25.77960205078125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) div:nth-of-type(3) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/div[5]/div/div[3]/p"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) div:nth-of-type(3) > p"
+                ]
+            ],
+            "offsetY": 16.43695068359375,
+            "offsetX": 26.36895751953125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.w-full button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/form/button"
+                ],
+                [
+                    "pierce/div.w-full button"
+                ],
+                [
+                    "aria/ADD"
+                ],
+                [
+                    "text/ADD"
+                ]
+            ],
+            "offsetY": 28.48956298828125,
+            "offsetX": 75.63980102539062
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div/a[2]"
+                ],
+                [
+                    "pierce/a:nth-of-type(2)"
+                ],
+                [
+                    "aria/List Items"
+                ]
+            ],
+            "offsetY": 30.915023803710938,
+            "offsetX": 87.18366241455078
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > div > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div/div[4]/div/p"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > div > p"
+                ]
+            ],
+            "offsetY": 14.94134521484375,
+            "offsetX": 3.9375
+        }
+    ]
+}

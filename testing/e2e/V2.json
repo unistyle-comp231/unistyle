@@ -1,0 +1,214 @@
+{
+    "title": "V2",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1130,
+            "height": 792,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:5173/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:5173/",
+                    "title": "UniStyle"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "ul > a:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/ul/a[2]"
+                ],
+                [
+                    "pierce/ul > a:nth-of-type(2)"
+                ]
+            ],
+            "offsetY": 20.663925170898438,
+            "offsetX": 62.701751708984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(4) img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[2]/a[4]/div/img"
+                ],
+                [
+                    "pierce/a:nth-of-type(4) img"
+                ],
+                [
+                    "aria/Men Jeans Jacket $129",
+                    "aria/[role=\"image\"]"
+                ]
+            ],
+            "offsetY": 134.62705993652344,
+            "offsetX": 133.3504638671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.gap-4 button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[2]/div[2]/div/button"
+                ],
+                [
+                    "pierce/div.gap-4 button"
+                ],
+                [
+                    "aria/S"
+                ]
+            ],
+            "offsetY": 23.199569702148438,
+            "offsetX": 21.649658203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-20 > div:nth-of-type(1) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[1]/p"
+                ],
+                [
+                    "pierce/div.mt-20 > div:nth-of-type(1) > p"
+                ],
+                [
+                    "text/Reviews (122)"
+                ]
+            ],
+            "offsetY": 31.682567596435547,
+            "offsetX": 74.7845458984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex a:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/ul/a[2]/p"
+                ],
+                [
+                    "pierce/div.flex a:nth-of-type(2) > p"
+                ]
+            ],
+            "offsetY": 15.922698974609375,
+            "offsetX": 33.701751708984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(5) img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[2]/a[5]/div/img"
+                ],
+                [
+                    "pierce/a:nth-of-type(5) img"
+                ],
+                [
+                    "aria/Boy Round Neck Pure Cotton T-shirt $29",
+                    "aria/[role=\"image\"]"
+                ]
+            ],
+            "offsetY": 170.80564880371094,
+            "offsetX": 83.74563598632812
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex a:nth-of-type(2) > p"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/ul/a[2]/p"
+                ],
+                [
+                    "pierce/div.flex a:nth-of-type(2) > p"
+                ]
+            ],
+            "offsetY": 5.922698974609375,
+            "offsetX": 18.701751708984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-6 p:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[1]/div/p[1]/input"
+                ],
+                [
+                    "pierce/div.mt-6 p:nth-of-type(1) > input"
+                ]
+            ],
+            "offsetY": 16.12445068359375,
+            "offsetX": 1.3711624145507812
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.my-5 p:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/div[2]/div/p[1]/input"
+                ],
+                [
+                    "pierce/div.my-5 p:nth-of-type(1) > input"
+                ]
+            ],
+            "offsetY": 16.423797607421875,
+            "offsetX": 5.371162414550781
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(2) img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/div[2]/a[2]/div/img"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) img"
+                ],
+                [
+                    "aria/Men Round Neck Pure Cotton T-shirt $45",
+                    "aria/[role=\"image\"]"
+                ]
+            ],
+            "offsetY": 155.6270751953125,
+            "offsetX": 93.95684814453125
+        }
+    ]
+}
