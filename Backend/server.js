@@ -31,14 +31,15 @@ app.use('/api/order', orderRouter)
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const frontendPath = path.join(__dirname, 'frontend', 'dist')
+// Serve frontend from Frontend/dist
+const frontendPath = path.join(__dirname, '..', 'Frontend', 'dist');
 
-app.use(express.static(frontendPath))
+app.use(express.static(frontendPath));
 
-// SPA catch-all: for any non-API route, send index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(frontendPath, 'index.html'))
-})
+  res.sendFile(path.join(frontendPath, 'index.html'));
+});
+
 // -------------------------------------------
 
 app.listen(port, () => console.log('Server started on PORT : ' + port))
