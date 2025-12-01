@@ -1,0 +1,30 @@
+V5-TASK-01 — UI verification
+1. Opened the website as a visitor (not logged in).
+2. Navigated to the product listing page.
+3. Checkedt the limited cart UI is displayed for visitors.
+4. Verified that the UI reacts correctly when a visitor tries to add/remove items.
+5. Confirmed that no login or account creation was required to interact with the limited cart.
+
+Everything displayed correctly and behaved as expected.
+
+V5-TASK-02 — Session-based limited cart logic
+1. Added several products to the limited cart while not logged in.
+2. Refreshed the page to confirm the session items persisted temporarily.
+3. Removed items one-by-one to verify state updates correctly.
+4. Closed the browser tab and reopened it to confirm behavior resets properly (session storage).
+5. Checked console logs and network requests — no unexpected errors.
+
+The add/remove behavior worked correctly and matched the expected session logic.
+
+V5-TASK-03 — Session cart behavior
+
+Team members previously mentioned that refreshing the page causes an error with temporary cart items.
+
+1. Added multiple items to the temporary cart as a visitor.
+2. Refreshed the page several times while observing console logs.
+3. Navigated between pages (home → product → cart → product).
+4. Cleared the session manually and repeated the test.
+5. Created a new account to see if temporary items transfer to the user cart after registration.
+
+I was not able to reproduce the page-refresh error.
+I will continue checking edge cases, but so far I cannot recreate the issue.
